@@ -1,9 +1,16 @@
 {
   "development": {
     "username": "root",
-    "password": "Arkus@123",
+    "password": "",
     "database": "bb_poc",
     "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "poc_admin",
+    "password": "Arkus@123",
+    "database": "bb_poc",
+    "host": "demo-pocdb.mysql.database.azure.com",
     "dialect": "mysql"
   }
 }
